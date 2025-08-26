@@ -91,6 +91,35 @@ else:
 #I can check it by dividing the number by 2 (using the modulo operator %)
 #Then I used conditinals "if; else" 
 
+    #Exercise 8 : What’s Your Name ?
+# Instructions
+# Write code that asks the user for their name and determines 
+# whether or not you have the same name. Print out a funny message based on the outcome.
+
+name = input('What is your name?')
+if name == 'Ella':
+    print("We are namesake monkeys")
+else:
+    print('The only monkey here is you')
+    
+        #Exercise 9 : Tall Enough To Ride A Roller Coaster
+# Instructions
+# Write code that will ask the user for their height in centimeters.
+# If they are over 145 cm, print a message that states they are tall enough to ride.
+# If they are not tall enough, print a message that says they need to grow some more to ride.
+
+height = int(input("What is your height?"))
+if height >= 145:
+    print('You are allowed to rude!')
+else:
+    print('You are not allowed to ride')
+    #it's important to convert input - integer
+    
+
+
+
+
+
 
 
 
