@@ -65,6 +65,31 @@ info = full_name + ' will soon grow up ' + str(age) + ' to the size of her feet 
 print(info)
     #At first I forgot to convert numbers to strings
     #Then I fixed it and also added the missing spaces
+    
+    #Exercise 6 : A & B
+# Instructions
+# Create two variables, a and b.
+# Each variable’s value should be a number.
+# If a is bigger than b, have your code print "Hello World".
+
+a = 2
+b = 1
+if a>b:
+    print("Hello World")
+    #Firstly I skipped ":", because I forgot that "if" is a condition
+    
+    #Exercise 7 : Odd Or Even
+# Instructions
+# Write code that asks the user for a number and determines whether this number is odd or even.
+
+number = int(input('Enter a number: '))
+if number % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
+    #I had to check if a number is odd or even. 
+#I can check it by dividing the number by 2 (using the modulo operator %)
+#Then I used conditinals "if; else" 
 
 
 
