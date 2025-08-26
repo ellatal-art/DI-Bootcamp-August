@@ -36,6 +36,19 @@ print(result)
 print(5 < 3)
 print(3 == 3)
 print(3 == "3")
-print("3" > 3)
+#print("3" > 3)         TypeError cannot compare string and integer
 print("Hello" == "hello")
+
+# #Exercise 4 : Your Computer Brand
+# Instructions
+# Create a variable called computer_brand which value is the brand name of your computer.
+# Using the computer_brand variable, print a sentence that states the following:
+# "I have a <computer_brand> computer."
+
+Computer_brand = "MacBook"
+print("I have a " + Computer_brand + " computer.")
+
+
+
+
 
