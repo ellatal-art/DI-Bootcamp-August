@@ -25,4 +25,17 @@ print(result)
 #at first I used (:) and it gave me - "NameError: name 'result' is not defined"
 #then I replased ":" and "="
 
+# Exercise 3 : What Is The Output ?
+# Predict the output of the following code snippets:
+# >>> 5 < 3     False - 5 is not less than 3
+# >>> 3 == 3    True - both sides are equal
+# >>> 3 == "3"  False - different types
+# >>> "3" > 3   we can not compare str and int
+# >>> "Hello" == "hello"    False - case-sensitive
+
+print(5 < 3)
+print(3 == 3)
+print(3 == "3")
+print("3" > 3)
+print("Hello" == "hello")
 
