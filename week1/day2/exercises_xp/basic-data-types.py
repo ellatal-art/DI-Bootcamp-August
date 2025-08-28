@@ -23,6 +23,27 @@ print(my_fav_numbers)
     #Firstly I confused append() with add(), whuch caused an AttributeError
     #To concatenate 2 sets I was choosing between 2 options: unuon() update()
     #I chose update() because it was simpler and faster
+    
+    
+    #Exercise 2: Tuple
+# Key Python Topics:
+# Tuples (immutability)
+# Instructions:
+# Given a tuple of integers, try to add more integers to the tuple.
+# Hint: Tuples are immutable, meaning they cannot be changed after creation. 
+# Think about why you can’t add more integers to a tuple
+
+my_tuple = (1, 2, 3)
+print(my_tuple)
+    #Tuples are immutabler, so I convert it into a list to modify it
+    
+temp_list = list(my_tuple)
+    #Make the necessary changes, and then convert it back into a tuple
+    
+temp_list.append(4)
+temp_list.append(5)
+my_tuple = tuple(temp_list)
+print(my_tuple)
 
 
 
